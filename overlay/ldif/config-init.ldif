@@ -1,0 +1,57 @@
+dn: cn=config
+changetype: modify
+replace: olcTLSCertificateFile
+olcTLSCertificateFile: /etc/pki/tls/certs/star_chefclub_tv.pem
+
+dn: cn=config
+changetype: modify
+replace: olcTLSCertificateKeyFile
+olcTLSCertificateKeyFile: /etc/pki/tls/certs/star_chefclub_tv.key
+
+dn: olcDatabase={0}config,cn=config
+changetype: modify
+replace: olcRootDN
+olcRootDN: cn=admin,cn=config
+
+dn: olcDatabase={0}config,cn=config
+changetype: modify
+add: olcRootPW
+olcRootPW: {SSHA}fYlhJA6EeE/SDK4rdMBZfNtr8vtrGGdB
+
+dn: olcDatabase={1}monitor,cn=config
+changetype: modify
+replace: olcAccess
+olcAccess: to * by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" read by dn.base="cn=root,dc=chefclub,dc=tv" read by * none
+
+dn: olcDatabase={2}hdb,cn=config
+changetype: modify
+replace: olcSuffix
+olcSuffix: dc=chefclub,dc=tv
+
+dn: olcDatabase={2}hdb,cn=config
+changetype: modify
+replace: olcRootDN
+olcRootDN: cn=root,dc=chefclub,dc=tv
+
+dn: olcDatabase={2}hdb,cn=config
+changetype: modify
+add: olcRootPW
+olcRootPW: {SSHA}fYlhJA6EeE/SDK4rdMBZfNtr8vtrGGdB
+
+dn: olcDatabase={2}hdb,cn=config
+changetype: modify
+add: olcAccess
+olcAccess: to attrs=userPassword by self write by anonymous auth by dn.base="cn=root,dc=chefclub,dc=tv" write by * none
+
+dn: olcDatabase={2}hdb,cn=config
+changetype: modify
+add: olcAccess
+olcAccess: to * by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" write
+
+dn: cn=adgroup,cn=schema,cn=config
+objectClass: olcSchemaConfig
+cn: adgroup
+olcAttributeTypes: ( 1.2.840.113556.1.4.750 NAME 'groupType' SYNTAX '1.3.6.1.4.1.1466.115.121.1.27' SINGLE-VALUE )
+olcAttributeTypes: ( 1.3.114.7.4.2.0.33 NAME 'memberOf' SYNTAX '1.3.6.1.4.1.1466.115.121.1.26' )
+olcObjectClasses: ( 1.2.840.113556.1.5.9 NAME 'user' DESC 'a user' SUP organizationalPerson STRUCTURAL MUST ( cn ) MAY ( userPassword $ memberOf ) )
+olcObjectClasses: ( 1.2.840.113556.1.5.8 NAME 'group' DESC 'a group of users' SUP top STRUCTURAL MUST ( groupType $ cn ) MAY ( member $ mail ) )

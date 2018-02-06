@@ -1,0 +1,13 @@
+dn: uid=__USERID__,ou=People,__SUFFIX__
+uid: __USERID__
+uidNumber: __UID_NUMBER__
+gidNumber: __GID_NUMBER__
+gecos: __FULL_NAME__
+loginShell: /bin/bash
+homeDirectory: /home/__USERID__
+mail: __EMAIL_ADDRESS__
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: __USERID__
+userPassword: __PASSWORD__

@@ -1,0 +1,5 @@
+dn: cn=__GROUPNAME__,ou=Group,__SUFFIX__
+cn: __GROUPNAME__
+gidNumber: __GROUPID__
+objectClass: posixGroup
+objectClass: top

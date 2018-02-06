@@ -1,0 +1,450 @@
+
+dn: cn=Adrien Lopez,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Adrien Lopez
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: adrien
+uidNumber: 58409
+gidNumber: 50000
+gecos: Adrien Lopez
+loginShell: /bin/bash
+homeDirectory: /home/adrien
+mail: adrien@chefclub.tv
+sn: Lopez
+givenName: Adrien
+
+dn: cn=Agustin Bunader,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Agustin bunader
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: agustin
+uidNumber: 73280
+gidNumber: 50000
+gecos: Agustin bunader
+loginShell: /bin/bash
+homeDirectory: /home/agustin
+mail: agustin@chefclub.tv
+sn: Bunader
+givenName: Agustin
+
+dn: cn=Astrid Flauraud,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Astrid Flauraud
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: astrid
+uidNumber: 50107
+gidNumber: 50000
+gecos: Astrid Flauraud
+loginShell: /bin/bash
+homeDirectory: /home/astrid
+mail: astrid@chefclub.tv
+sn: Flauraud
+givenName: Astrid
+
+dn: cn=Axel Lang,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Axel Lang
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: axel
+uidNumber: 66156
+gidNumber: 50000
+gecos: Axel Lang
+loginShell: /bin/bash
+homeDirectory: /home/axel
+mail: axel@chefclub.tv
+sn: Lang
+givenName: Axel
+
+dn: cn=Baptiste Aubour,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Baptiste Aubour
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: baptiste
+uidNumber: 81070
+gidNumber: 50000
+gecos: Baptiste Aubour
+loginShell: /bin/bash
+homeDirectory: /home/baptiste
+mail: baptiste@chefclub.tv
+sn: Aubour
+givenName: Baptiste
+
+dn: cn=Camille Barreau,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Camille Barreau
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: camille
+uidNumber: 67773
+gidNumber: 50000
+gecos: Camille Barreau
+loginShell: /bin/bash
+homeDirectory: /home/camille
+mail: camille@chefclub.tv
+sn: Barreau
+givenName: Camille
+
+dn: cn=Celine Brolet,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Celine Brolet
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: celine
+uidNumber: 65030
+gidNumber: 50000
+gecos: Celine Brolet
+loginShell: /bin/bash
+homeDirectory: /home/celine
+mail: celine@chefclub.tv
+sn: Brolet
+givenName: Céline
+
+dn: cn=Contact Chefclub,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Contact Chefclub
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: contact
+uidNumber: 70838
+gidNumber: 50000
+gecos: Contact Chefclub
+loginShell: /bin/bash
+homeDirectory: /home/contact
+mail: contact@chefclub.tv
+sn: Chefclub
+givenName: Contact
+
+dn: cn=Emilie Tunc,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Emilie Tunc
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: emilie
+uidNumber: 66233
+gidNumber: 50000
+gecos: Emilie Tunc
+loginShell: /bin/bash
+homeDirectory: /home/emilie
+mail: emilie@chefclub.tv
+sn: Tunc
+givenName: Emilie
+
+dn: cn=Erika Santoro,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Erika Santoro
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: erika
+uidNumber: 75470
+gidNumber: 50000
+gecos: Erika Santoro
+loginShell: /bin/bash
+homeDirectory: /home/erika
+mail: erika@chefclub.tv
+sn: Santoro
+givenName: Erika
+
+dn: cn=Floriane de Lussac,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Floriane de Lussac
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: floriane
+uidNumber: 60361
+gidNumber: 50000
+gecos: Floriane de Lussac
+loginShell: /bin/bash
+homeDirectory: /home/floriane
+mail: floriane@chefclub.tv
+sn: de Lussac
+givenName: Floriane
+
+dn: cn=Gaetan Husson,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Gaetan Husson
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: gaetan
+uidNumber: 73050
+gidNumber: 50000
+gecos: Gaetan Husson
+loginShell: /bin/bash
+homeDirectory: /home/gaetan
+mail: gaetan@chefclub.tv
+sn: Husson
+givenName: Gaetan
+
+dn: cn=Gerald Devotta,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Gerald Devotta
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: gerald
+uidNumber: 79309
+gidNumber: 50000
+gecos: Gerald Devotta
+loginShell: /bin/bash
+homeDirectory: /home/gerald
+mail: gerald@chefclub.tv
+sn: Devotta
+givenName: Gerald
+
+dn: cn=Greg Tappero,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Greg Tappero
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: greg
+uidNumber: 64694
+gidNumber: 50000
+gecos: Greg Tappero
+loginShell: /bin/bash
+homeDirectory: /home/greg
+mail: greg@chefclub.tv
+sn: Tappero
+givenName: Greg
+
+dn: cn=Hugo Papier,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Hugo Papier
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: hugo
+uidNumber: 50059
+gidNumber: 50000
+gecos: Hugo Papier
+loginShell: /bin/bash
+homeDirectory: /home/hlgo
+mail: hugo@chefclub.tv
+sn: Papier
+givenName: Hugo
+
+dn: cn=infra not-a-real-user,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: infra not-a-real-user
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: infra
+uidNumber: 71272
+gidNumber: 50000
+gecos: infra not-a-real-user
+loginShell: /bin/bash
+homeDirectory: /home/infra
+mail: infra@chefclub.tv
+sn: not-a-real-user
+givenName: infra
+
+dn: cn=Jonathan Lang,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Jonathan Lang
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: jonathan
+uidNumber: 50795
+gidNumber: 50000
+gecos: Jonathan Lang
+loginShell: /bin/bash
+homeDirectory: /home/jonathan
+mail: jonathan@chefclub.tv
+sn: Lang
+givenName: Jonathan
+
+dn: cn=Julie Noel,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Julie Noel
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: julie
+uidNumber: 53923
+gidNumber: 50000
+gecos: Julie Noel
+loginShell: /bin/bash
+homeDirectory: /home/jllie
+mail: julie@chefclub.tv
+sn: Noel
+givenName: Julie
+
+dn: cn=Mariana Delaby,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Mariana Delaby
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: mariana
+uidNumber: 71395
+gidNumber: 50000
+gecos: Mariana Delaby
+loginShell: /bin/bash
+homeDirectory: /home/mariana
+mail: mariana@chefclub.tv
+sn: Delaby
+givenName: Mariana
+
+dn: cn=Marion Houee,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Marion Houee
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: marion
+uidNumber: 81878
+gidNumber: 50000
+gecos: Marion Houee
+loginShell: /bin/bash
+homeDirectory: /home/marion
+mail: marion@chefclub.tv
+sn: Houee
+givenName: Marion
+
+dn: cn=Melanie Zerbout,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Melanie Zerbout
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: melanie
+uidNumber: 77312
+gidNumber: 50000
+gecos: Melanie Zerbout
+loginShell: /bin/bash
+homeDirectory: /home/melanie
+mail: melanie@chefclub.tv
+sn: Zerbout
+givenName: Melanie
+
+dn: cn=Pierre Malpin,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Pierre Malpin
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: pierre
+uidNumber: 59452
+gidNumber: 50000
+gecos: Pierre Malpin
+loginShell: /bin/bash
+homeDirectory: /home/wierre
+mail: pierre@chefclub.tv
+sn: Malpin
+givenName: Pierre
+
+dn: cn=Remy Hubscher,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Remy Hubscher
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: remy
+uidNumber: 74126
+gidNumber: 50000
+gecos: Remy Hubscher
+loginShell: /bin/bash
+homeDirectory: /home/remy
+mail: remy@chefclub.tv
+sn: Hubscher
+givenName: Remy
+
+dn: cn=Support Help,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Support Help
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: support
+uidNumber: 75515
+gidNumber: 50000
+gecos: Support Help
+loginShell: /bin/bash
+homeDirectory: /home/slwwort
+mail: support@chefclub.tv
+sn: Help
+givenName: Support
+
+dn: cn=Suzanne Dupard,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Suzanne Dupard
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: suzanne
+uidNumber: 65055
+gidNumber: 50000
+gecos: Suzanne Dupard
+loginShell: /bin/bash
+homeDirectory: /home/slzanne
+mail: suzanne@chefclub.tv
+sn: Dupard
+givenName: Suzanne
+
+dn: cn=Theo Karsenty,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Theo Karsenty
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: theo
+uidNumber: 54053
+gidNumber: 50000
+gecos: Theo Karsenty
+loginShell: /bin/bash
+homeDirectory: /home/theo
+mail: theo@chefclub.tv
+sn: Karsenty
+givenName: Theo
+
+dn: cn=Thomas Lang,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Thomas Lang
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: thomas
+uidNumber: 51921
+gidNumber: 50000
+gecos: Thomas Lang
+loginShell: /bin/bash
+homeDirectory: /home/thomas
+mail: thomas@chefclub.tv
+sn: Lang
+givenName: Thomas
+
+dn: cn=Vanessa Adonis,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Vanessa Adonis
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: vanessa
+uidNumber: 78632
+gidNumber: 50000
+gecos: Vanessa Adonis
+loginShell: /bin/bash
+homeDirectory: /home/vanessa
+mail: vanessa@chefclub.tv
+sn: Adonis
+givenName: Vanessa
+
+dn: cn=Violette Lehir,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Violette Lehir
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: violette
+uidNumber: 50263
+gidNumber: 50000
+gecos: Violette Lehir
+loginShell: /bin/bash
+homeDirectory: /home/violette
+mail: violette@chefclub.tv
+sn: Lehir
+givenName: Violette
+
+dn: cn=Xinyi Wu,ou=People,dc=chefclub,dc=tv
+changetype: add
+cn: Xinyi Wu
+objectClass: inetorgperson
+objectClass: posixAccount
+uid: xinyi
+uidNumber: 68831
+gidNumber: 50000
+gecos: Xinyi Wu
+loginShell: /bin/bash
+homeDirectory: /home/xinyi
+mail: xinyi@chefclub.tv
+sn: Wu
+givenName: Xinyi

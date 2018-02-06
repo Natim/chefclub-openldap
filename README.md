@@ -22,6 +22,16 @@ you wish.  The container is then started with the specified mapped volume and li
 the container *BUT* not if the container is removed.  Use a volume mapping in order to persist data
 if you suspect you may have to destroy the container, or migrate servers at any point.
 
+The docker image contains LDIF files which configure OpenLDAP:
+
+- TLS
+- Directory Manager account that has access to all of OpenLDAP data
+- An admin for the dc=chefclub,dc=tv base DN
+- Populates all users
+- Populates all groups from GSuite
+
+The main thing missing from the provisioning of this instance is User Passwords.
+
 ## Working with LDAP
 
 LDAP has some command line tools, however they are not the most user-friendly. It is usually

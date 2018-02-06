@@ -329,20 +329,20 @@ mail: pierre@chefclub.tv
 sn: Malpin
 givenName: Pierre
 
-dn: cn=Remy Hubscher,ou=People,dc=chefclub,dc=tv
+dn: cn=Rémy Hubscher,ou=People,dc=chefclub,dc=tv
 changetype: add
-cn: Remy Hubscher
+cn: Rémy Hubscher
 objectClass: inetorgperson
 objectClass: posixAccount
 uid: remy
 uidNumber: 74126
 gidNumber: 50000
-gecos: Remy Hubscher
+gecos: Rémy Hubscher
 loginShell: /bin/bash
-homeDirectory: /home/remy
+homeDirectory: /home/rhubscher
 mail: remy@chefclub.tv
 sn: Hubscher
-givenName: Remy
+givenName: Rémy
 
 dn: cn=Support Help,ou=People,dc=chefclub,dc=tv
 changetype: add
